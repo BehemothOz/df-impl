@@ -1,11 +1,9 @@
-if (module.hot) {
-  module.hot.accept();
-}
+import createElement from "./core/createElement";
+import render from "./core/render";
 
-class OwnReact {
-  static createElement(...args) {
-    return [...args];
-  }
-}
+const Own = {
+  createElement,
+  render
+};
 
-export default OwnReact;
+export default Own;
