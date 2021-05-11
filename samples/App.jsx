@@ -1,4 +1,4 @@
-import OwnReact from "../src";
+import Own from "../src";
 
 const App = <h1 prop1="prop value">Hello, World!</h1>;
 
